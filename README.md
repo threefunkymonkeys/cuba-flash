@@ -15,6 +15,7 @@ require "cuba"
 require "cuba-flash"
 
 Cuba.use Rack::Session::Cookie, :secret => "super secret key"
+Cuba.use Cuba::Flash
 
 Cuba.define do
   on get, root do
