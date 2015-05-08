@@ -12,7 +12,7 @@ gem install cuba-flash
 
 ```Ruby
 require "cuba"
-require "cuba-flash"
+require "cuba/flash"
 
 Cuba.use Rack::Session::Cookie, :secret => "super secret key"
 Cuba.use Cuba::Flash
