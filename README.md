@@ -1,8 +1,8 @@
-##Cuba-Flash
+## Cuba-Flash
 
 Cuba Flash provides flash messages to Cuba apps.
 
-###Install
+### Install
 
 ```
 gem install cuba-flash
